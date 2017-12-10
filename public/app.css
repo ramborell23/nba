@@ -1,0 +1,76 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(111, 111, 122);
+  font-family: 'Itim', sans-serif;
+}
+
+input {
+  font-size: 9px;
+  padding: 4px;
+  font-family: 'Itim', sans-serif;
+}
+
+button {
+  font-size: 22px;
+  font-family: 'Itim', sans-serif;
+}
+
+#nav{
+  display: inline-block;
+  padding-right: 5em;
+  padding-top: 0.5em;
+}
+.mainlogo{
+  height: 1.9em;
+  width: 4em;
+  float: left;
+}
+
+#newdiv{
+  border: solid 3px red;
+  width: 10em;
+  height: 6em;
+
+}
+#header{
+  float: left;
+}
+
+#box{
+  float: right;
+  width: 10em;
+}
+
+#mainheader{
+  background-color: rgb(22, 22, 189);
+  color: white;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #333; */
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.2em ;
+  text-decoration: none;
+  
+}
+li a:hover {
+  color: white;
+  text-decoration: overline
+}
